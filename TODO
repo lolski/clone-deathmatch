@@ -1,0 +1,52 @@
+HUD
++ draw crosshair
+- more weapon
+
+NAV
+- add camp node to waypoint (with property direction)
++ current node is "destination"
+    + must select one that's at least 4-9 nodes away? so the bot doesn't appear to move back and forth
+    + after reaching this node, bot can either
+        + camp for a certain secs
+        + pick another destination node
++ add smaller node meant to guide movement more freely. this node can't be destination node
++ serialize
+
+BOT
++ add vision
++ add movement
+    + how to make them follow the path?
+    + how to recover from situation such as when they're away from the path?
+- add jump/crouch
++ add shoot
+
+GAME
++ Human and Bot inherits from class Player
+    + health decreases when hit
+    + have name
+
++ start round
+    + 6 vs 6
+    + when a team loses, restart the round
+        + foreach all player in team1, team2: player.resetHealth, player.resetAmmo, player.resetPosition
+        + 
+
++ hud for score checking
+    + for each player: Kill, Death
+    + for team: win/lose
+
+
+NOTE:
+try adding -lGL -lXxf86vm -lIrrlicht when compiling if linker error appears
+- means optional
++ means mandatory
+
+bot logic:
+start game
+repeat:
+after spawn, select a random node with range > 3 to travel
+move there
+after that, repeat
+
+learning?
+bot vision: cone

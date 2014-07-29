@@ -1,0 +1,7 @@
+#include "ID.h"
+
+s32 const PLAYER_SCENENODE_ID = 1 << 0;
+s32 const DEBUG_SCENENODE_CLASS = 1 << 16;
+s32 const CONTAINER_SCENENODE_CLASS = 1 << 17;
+s32 const ENTITY_SCENENODE_CLASS = 1 << 18;       
+s32 const MAP_SCENENODE_ID = 1 << 19;

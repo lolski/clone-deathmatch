@@ -1,0 +1,27 @@
+Chr2:
+	list of direction
+	list of modifier
+	list of locationDamaged
+
+Chr2 chromo[w][l][w][l][pool_size];
+
+go:
+	curr_pos = get_position()
+	meX, meY, enX, enY = { get coordinate }
+	which = get appropriate chromosome index
+	; go to coordinate pointed by the chromosome
+	current_chromo = chromo[meX][meY][enX][enY][which]
+	curr_dir = current_chromo.current_cursor()
+	if (curr_pos is near enough to curr_dir and curr_dir != current_chromo.end())
+		curr_dir++ ; advance the iterator
+	else
+		set_player_pos( speed * curr_dir.normalize() )
+
+problem:
+	stuck
+	multiple actions
+
+collision problems:
+	intersectsWithLine (const line3d< T > &line) const
+	getEdges (vector3d< T > *edges) const
+

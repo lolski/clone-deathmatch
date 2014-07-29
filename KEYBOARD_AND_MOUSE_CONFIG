@@ -1,0 +1,20 @@
+#Keyboard
+W,S,A,D     Move
+TAB         Display score
+
+#Mouse
+LMB         Shoot
+
+#Debug mode
+]           Toggle debug node visibility ON/OFF
+
+#The debug functionalities below will still work even when debug node visibility is turned off. 
+/           Highlight node
+M           Connect two nodes
+.           Add new node (connected to the previous node)
+SHIFT + .   Add new node (disconnected)
+
+Up-arrow    Change node type to normal
+Down-arrow  Change node type to camp (Bot Behavior not implemented!!)
+Left-arrow  Change node type to spawn-point
+Right-arrow Change node type to goal-roam

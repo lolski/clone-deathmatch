@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f3" displayName="Bot" projectFiles="true">
+      <logicalFolder name="f1" displayName="Pathfinding" projectFiles="true">
+        <itemPath>/Users/lolski/UVA/gameprog/final/AStarPropertyType.h</itemPath>
+        <itemPath>/Users/lolski/UVA/gameprog/final/DistanceHeuristic.h</itemPath>
+        <itemPath>/Users/lolski/UVA/gameprog/final/GoalFoundTermination.h</itemPath>
+        <itemPath>/Users/lolski/UVA/gameprog/final/Pathfinding.h</itemPath>
+        <itemPath>/Users/lolski/UVA/gameprog/final/WaypointNodeVisitor.h</itemPath>
+      </logicalFolder>
+      <itemPath>Bot.cpp</itemPath>
+      <itemPath>Bot.h</itemPath>
+      <itemPath>BotLogic.h</itemPath>
+      <itemPath>BotManager.cpp</itemPath>
+      <itemPath>BotManager.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/BotMovement.h</itemPath>
+      <itemPath>BotPlayer.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/CatmullRomSpline.cpp</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/CatmullRomSpline.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/Goal.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f5" displayName="Debug" projectFiles="true">
+      <itemPath>LevelAIDebugVisual.h</itemPath>
+      <itemPath>SpawnPointDebug.h</itemPath>
+      <itemPath>debug.cpp</itemPath>
+      <itemPath>debug.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f7" displayName="Graph" projectFiles="true">
+      <itemPath>Waypoint.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/WaypointNode.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/WaypointNodeType.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f8" displayName="HUD" projectFiles="true">
+      <itemPath>/Users/lolski/UVA/gameprog/final/HumanGUI.h</itemPath>
+      <itemPath>Score.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f10" displayName="Human" projectFiles="true">
+      <itemPath>Human.cpp</itemPath>
+      <itemPath>Human.h</itemPath>
+      <itemPath>PlayerRepresentation.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/Weapon.cpp</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/Weapon.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f4" displayName="Infra" projectFiles="true">
+      <itemPath>CleanUp.h</itemPath>
+      <itemPath>GameInit.h</itemPath>
+      <itemPath>GameManager.cpp</itemPath>
+      <itemPath>GameManager.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/ID.cpp</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/ID.h</itemPath>
+      <itemPath>MovementTimer.cpp</itemPath>
+      <itemPath>MovementTimer.h</itemPath>
+      <itemPath>State.cpp</itemPath>
+      <itemPath>State.h</itemPath>
+      <itemPath>StateManager.cpp</itemPath>
+      <itemPath>StateManager.h</itemPath>
+      <itemPath>UserInput.h</itemPath>
+      <itemPath>config.h</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="Level" projectFiles="true">
+      <itemPath>/Users/lolski/UVA/gameprog/final/ILevelDebugCallback.h</itemPath>
+      <itemPath>Level.h</itemPath>
+      <itemPath>LevelAIEditor.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/LevelAITypes.h</itemPath>
+      <itemPath>SpawnPointCollection.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="Menu" projectFiles="true">
+      <itemPath>IReturnFromInGameMenuCallback.h</itemPath>
+      <itemPath>InGameMenu.h</itemPath>
+      <itemPath>InGameMenuInput.h</itemPath>
+      <itemPath>MainMenu.h</itemPath>
+      <itemPath>MainMenuInput.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f9" displayName="Serializer" projectFiles="true">
+      <itemPath>Serialize.h</itemPath>
+      <itemPath>WaypointGraphSaveLoad.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f6" displayName="Util" projectFiles="true">
+      <itemPath>GenerateUnsignedInt.cpp</itemPath>
+      <itemPath>GenerateUnsignedInt.h</itemPath>
+      <itemPath>GetCurrentDateTime.cpp</itemPath>
+      <itemPath>GetCurrentDateTime.h</itemPath>
+      <itemPath>KeyCodeToStringw.h</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/PrintSceneNodeImmediateChildren.cpp</itemPath>
+      <itemPath>/Users/lolski/UVA/gameprog/final/PrintSceneNodeImmediateChildren.h</itemPath>
+      <itemPath>RandomNumberCollection.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>DEPENDENCIES</itemPath>
+    <itemPath>KEYBOARD_AND_MOUSE_CONFIG</itemPath>
+    <itemPath>TODO</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/irrlicht-1.7.3/include</pElem>
+            <pElem>/usr/local/Cellar/boost/1.49.0/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/final.app/Contents/MacOS/final</output>
+          <linkerAddLib>
+            <pElem>/usr/lib</pElem>
+            <pElem>/usr/local/Cellar/boost/1.49.0/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/local/irrlicht-1.7.3/lib/MacOSX/libIrrlicht.a</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.49.0/lib/libboost_serialization-mt.a</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-framework OpenGL -framework Carbon -framework Cocoa -framework IOKit -lboost_serialization-mt</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="/Users/lolski/UVA/gameprog/final/AStarPropertyType.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/BotMovement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/CatmullRomSpline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/CatmullRomSpline.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/DistanceHeuristic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Goal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/GoalFoundTermination.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/HumanGUI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/ID.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/ID.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/ILevelDebugCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/LevelAITypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Pathfinding.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/PrintSceneNodeImmediateChildren.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/PrintSceneNodeImmediateChildren.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/WaypointNode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/WaypointNodeType.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/WaypointNodeVisitor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Weapon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Weapon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Bot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Bot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BotLogic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BotManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BotManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BotPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CleanUp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DEPENDENCIES" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameInit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GenerateUnsignedInt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GenerateUnsignedInt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GetCurrentDateTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GetCurrentDateTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Human.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Human.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IReturnFromInGameMenuCallback.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InGameMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InGameMenuInput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KEYBOARD_AND_MOUSE_CONFIG" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KeyCodeToStringw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Level.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LevelAIDebugVisual.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LevelAIEditor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainMenuInput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MovementTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MovementTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PlayerRepresentation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomNumberCollection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Score.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SpawnPointCollection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SpawnPointDebug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StateManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TODO" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserInput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Waypoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WaypointGraphSaveLoad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="debug.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/usr/local/irrlicht-1.7.3/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/final.app/Contents/MacOS/final</output>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/local/irrlicht-1.7.3/lib/MacOSX/libIrrlicht.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/Users/lolski/UVA/gameprog/final/AStarPropertyType.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/BotMovement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/CatmullRomSpline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/CatmullRomSpline.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/DistanceHeuristic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Goal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/GoalFoundTermination.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/HumanGUI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/ID.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/ID.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/ILevelDebugCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/LevelAITypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Pathfinding.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/PrintSceneNodeImmediateChildren.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/PrintSceneNodeImmediateChildren.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/WaypointNode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/WaypointNodeType.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/WaypointNodeVisitor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Weapon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/Users/lolski/UVA/gameprog/final/Weapon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Bot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Bot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BotLogic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BotManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BotManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BotPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CleanUp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DEPENDENCIES" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameInit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GenerateUnsignedInt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GenerateUnsignedInt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GetCurrentDateTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GetCurrentDateTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Human.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Human.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IReturnFromInGameMenuCallback.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InGameMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InGameMenuInput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KEYBOARD_AND_MOUSE_CONFIG" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KeyCodeToStringw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Level.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LevelAIDebugVisual.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LevelAIEditor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainMenuInput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MovementTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MovementTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PlayerRepresentation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomNumberCollection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Score.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SpawnPointCollection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SpawnPointDebug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StateManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TODO" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserInput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Waypoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WaypointGraphSaveLoad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="debug.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
